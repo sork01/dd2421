@@ -10,18 +10,18 @@
 
 #### 1. Move the clusters around
 The provided data, generated from the code in the text, is linearly separable. Minimize returns true for this data. The Polynomial kernel and the Radial kernel classify the data correctly as well
-<p align="center"><img src="https://github.com/sork01/dd2421/pic1.png"></p>
+<p align="center"><img src="https://github.com/sork01/dd2421/blob/master/pic1.png"></p>
 
 #### 2. Implement the non-linear kernels
 
 By changing the dataset I found some sets where the linear kernel could not classify the data but the polynomial and the radial could
-<p align="center"><img src="https://github.com/sork01/dd2421/pic2.png"></p>
+<p align="center"><img src="https://github.com/sork01/dd2421/blob/master/pic2.png"></p>
 
 #### 3. Explore non-linear Kernel Parameters
 The `p` parameter for the polynomial kernel changes the polynomial degree which in turn leads to decrease in bias and increase in variance. Increasing `sigma` parameter in the radial kernel gives a smoother curve and increase the bias, thus decreasing the variance.
 Decreasing the `sigma` increases variance and decreases bias.
 
-<p align="center"><img src="https://github.com/sork01/dd2421/pic.gif"></p>
+<p align="center"><img src="https://github.com/sork01/blob/master/dd2421/pic.gif"></p>
 
 ### 4. Slack Implementation
 #### Assignments
@@ -29,7 +29,7 @@ Decreasing the `sigma` increases variance and decreases bias.
 `C` is a tolerance for data points that are not correctly classified. 
 High `C` value means we want to reduce the number of miss-classified points and a low value allows more miss-classified points but instead gives a smooth boundary.
 
-<p align="center"><img src="https://github.com/sork01/dd2421/c.png"></p>
+<p align="center"><img src="https://github.com/sork01/blob/master/dd2421/c.png"></p>
 
 > 5. Imagine that you are given data that is not easily separable. Whenshould you opt for more slack rather than going for a more complex model (kernel) and vice versa?
 
