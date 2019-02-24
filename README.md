@@ -26,12 +26,13 @@ Decreasing the `sigma` increases variance and decreases bias.
 ### 4. Slack Implementation
 #### Assignments
 > 4. Explore the role of the slack parameter C. What happens for very large/small values?
+> 5. Imagine that you are given data that is not easily separable. Whenshould you opt for more slack rather than going for a more complex model (kernel) and vice versa?
+
 `C` is a tolerance for data points that are not correctly classified. 
 High `C` value means we want to reduce the number of miss-classified points and a low value allows more miss-classified points but instead gives a smooth boundary.
 
 <p align="center"><img src="https://github.com/sork01/dd2421/blob/master/c.png"></p>
 
-> 5. Imagine that you are given data that is not easily separable. Whenshould you opt for more slack rather than going for a more complex model (kernel) and vice versa?
 
 Slack Variables are useful when you want to reduce noise when you have a dataset with a large amount of noise.
 However, if you know the data does not contain much noise you'd want to use a more complex model. 
